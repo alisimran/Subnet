@@ -10,4 +10,11 @@ This Subnet Calculator does network calculations such as subnet mask, Network Ad
 2. Enter the CIDR mask bits. For eg: /11
 3. Click on the calculate button
 
+<p align="center" width="400px" height="400px"> 
+    <img src="/1.png">
+</p>
+
+<p align="center" width="400px" height="400px"> 
+    <img src="/2.png">
+</p>
 NOTE: Classful IP address feature coming soon.
