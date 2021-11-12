@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+
+/* heading  */
+nav{
+	width: 100%;
+	background: #6f42c1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: flex-start;
+}
+nav a:hover{
+  text-decoration: none;
+}
+.heading a h1{
+  /* font-family: Libre Baskerville; */
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bolder;
+  /* text-shadow: 1px 1px 1px grey; */
+  letter-spacing: 2px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+/* main content , tables */
+
+ .inputTable{
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  margin:auto;
+  width: 700px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+
+}
+.inputTable tr td:nth-child(last){
+  text-align: center;
+}
+.inputTable tr{
+  height: 35px;
+}
+.inputTable tr th{
+  font-size: 1.5em;
+  color: #616161;
+
+}
+
+/* tbody, td, tfoot, th, thead, tr{
+  border-style: none;
+} */
+/* table{
+  border-collapse: collapse;
+  align-content: space-between;
+
+} */
+
+div:nth-child(last){
+  background-color: #e3f2fd;
+}
+.results {
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+
+  height: 30px;
+  width: 600px;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.results tr , .results td{
+  border: 1px solid #666;
+  height: 35px;
+}
+
+button{
+  display: block;
+  border: 2px solid #7e57c2;
+  font-size: 16px;
+  padding: 16px 30px;
+  border-radius: 20px;
+  line-height: 1;
+  color: black;
+  background-color: #d1c4e9;
+}
+/******** footer  *********/
+footer{
+
+  padding-top: -40px;
+}
+p{
+    width: 700px;
+    margin-left: 370px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    background-color: #fdf0ff;
+    border: 0;
+    border-radius: 30px;
+}
+#headin{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #6f42c1;
+  font-size: 25px;
+  font-weight: bolder;
+}
